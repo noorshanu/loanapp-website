@@ -18,21 +18,17 @@ function About() {
         </div>
         <div className=" flex justify-between flex-col sm:flex-row gap-4 sm:gap-[6rem] my-4 sm:my-[6rem] ">
         <img
-            src="images/comp2.png"
+            src="images/event/2.png"
             alt=""
             className=" h-[350px] mr-auto border p-2 rounded-md"
           />
         <div className="  max-w-4xl mx-auto my-[4rem] flex flex-col justify-center gap-6">
           <p className=" text-xl">
-            At Unify Wellness, we believe that the journey to optimal health is
-            a path best traveled using the gifts of nature, aided by the
-            advancements of science. As a pioneering healthcare product company,
+          Alkhair Loan’s online personal loans offer a fast, convenient, and affordable financing solution that helps borrowers achieve their goals and overcome financial challenges. By providing flexible and accessible funding, Alkhair Loan empowers borrowers to manage unexpected expenses, seize opportunities, and enjoy stress-free moments that might otherwise be difficult to attain. With a focus on delivering value and meeting diverse needs, Alkhair Loan’s personal loans are designed to make life easier and more enjoyable, providing the financial tools needed to live one's best life.
           </p>
           <p className=" text-xl">
             we dedicate ourselves to discovering, developing, and delivering
-            innovative and effective wellness solutions. Our focus is on
-            biomagnetic and a range of other healthcare products designed to
-            enhance your wellbeing.
+            innovative and effective  solutions. 
           </p>
         </div>
         </div>
@@ -47,12 +43,7 @@ function About() {
               <div className=" bg-[#00aef3] h-[4px] w-[150px]  mb-2"></div>
             </div>
             <p className=" max-w-3xl text-xl mt-[2rem]">
-              Looking to the future, Unify Wellness aims to be a beacon of hope
-              and health. We envision a world where wellness is accessible to
-              all, and our daily efforts are dedicated to making this vision a
-              reality. We are committed to being your trusted partner in
-              wellness, providing products and insights that empower you to live
-              your healthiest life
+            Looking to the future, Alkhair Loan aims to be a beacon of hope and financial well-being. We envision a world where financial stability and growth are accessible to all, and our daily efforts are dedicated to making this vision a reality. We are committed to being your trusted partner in financial wellness, providing products and insights that empower you to achieve your financial goals and live your best life.
             </p>
           </div>
 
@@ -78,11 +69,7 @@ function About() {
               <div className=" bg-[#00aef3] h-[4px] w-[150px]  mb-2"></div>
             </div>
             <p className=" max-w-4xl text-xl mt-[2rem]">
-              Our mission at Unify Wellness is simple yet profound – to unify
-              traditional wisdom with modern technology in the pursuit of
-              holistic health. We strive to bring forth a range of products that
-              not only support physical wellness but also promote a harmonious
-              balance between mind, body, and spirit.
+            At Alkhair Loan, our mission is to empower individuals and communities by providing ethical, Sharia-compliant financial solutions that support their financial aspirations. We strive to offer accessible, transparent, and interest-free banking services that promote financial well-being and growth. Through our commitment to integrity, customer-centricity, and innovation, we aim to build long-term relationships with our clients, helping them navigate financial challenges and achieve their dreams.
             </p>
           </div>
         </div>
