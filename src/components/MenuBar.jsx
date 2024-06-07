@@ -31,44 +31,19 @@ function MenuBar() {
               <p className="text-black cursor-pointer hover:text-black underline text-sm uppercase">
                 <Link to="/">Home</Link>
               </p>
-              {/* <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
-               <Link to='/about'>
-               About us
-               </Link>
-                
-                </p> */}
+          
 
               <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
                 <Link to="/about">About us</Link>
               </p>
 
               <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
-                <LinkScroller
-                  id="prod"
-                  to="#service"
-                  
-                  scrollerOptions={{ smooth: true }}
-                >
-                 Our Services
-                </LinkScroller>
+                <a href="#service">Our Services</a>
               </p>
 
               <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
                 <a href="#enquery">enquire now</a>
               </p>
-
-              {/* <p  className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                  <a href="/images/unifywellness.pdf">
-                  Business Plan 
-                  </a>
-               
-                </p> */}
-              {/* <p className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
-                  <Link to='/gallery'>
-                 Events
-                  </Link>
-                
-                </p> */}
 
               <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
                 <Link to="/contact-us">Contact us</Link>
@@ -94,31 +69,24 @@ function MenuBar() {
               <p className="text-black cursor-pointer hover:text-black underline text-sm uppercase text-end">
                 <Link to="/">Home</Link>
               </p>
-              {/* <p className=' text-black cursor-pointer hover:text-black text-sm uppercase'>
-               <Link to='/about'>
-               About us
-               </Link>
-                
-                </p> */}
-              <p className="text-end ml-auto">
-                <AboutUsDropdown />
-              </p>
-              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase text-end">
-                <a href="#prod">Products</a>
+          
+            
+
+            
+
+              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
+                <Link to="/about">About us</Link>
               </p>
 
-              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase text-end">
-                <Link to="/legal">Legal</Link>
+              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
+                <a href="#service">Our Services</a>
               </p>
 
-              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase text-end">
-                <a href="/images/unifywellness.pdf">Business Plan</a>
-              </p>
-              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase text-end">
-                <Link to="/gallery">Gallery</Link>
+              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
+                <a href="#enquery">enquire now</a>
               </p>
 
-              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase text-end">
+              <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
                 <Link to="/contact-us">Contact us</Link>
               </p>
             </div>
