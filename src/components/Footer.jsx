@@ -74,10 +74,10 @@ function Footer() {
               <a href="/" className=" text-lg font-normal ">
                Contact us 
               </a>
-              <a href="/" className=" text-lg font-normal ">
+              <a href="/privacy-policy" className=" text-lg font-normal ">
               Term & Condition 
               </a>
-              <a href="/" className=" text-lg font-normal ">
+              <a href="/privacy-policy" className=" text-lg font-normal ">
                 Privacy Policy
               </a>
             </div>

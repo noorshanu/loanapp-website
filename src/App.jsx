@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Privacy from "./Pages/Privacy";
-import Terms from "./Pages/Terms";
+
 
 import About from "./Pages/About";
 
@@ -29,7 +29,7 @@ function App() {
         
  
 
-          <Route path="/terms-conditions" element={<Terms />} />
+    
      
         </Routes>
       </Router>

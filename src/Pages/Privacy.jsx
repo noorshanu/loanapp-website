@@ -5,7 +5,6 @@ import SearchMenu from "../components/SearchMenu";
 import Footer from "../components/Footer";
 import Disclaimer from "../components/Disclaimer";
 
-
 function Privacy() {
   return (
     <>
@@ -20,19 +19,26 @@ function Privacy() {
 
           <div>
             <p className=" pb-2">
-              At Unify Wellness Pvt Ltd, we value the trust you place in
-              us.That's why we insist upon the highest standards for secure
-              transactions and customer information privacy. Please read the
-              following statement to learn about our information gathering and
-              dissemination practices
+              Alkhair Loan is committed to protecting its customers’ privacy and
+              security. Through this privacy policy we explain how we collect
+              and share information. We also identify the source from where we
+              gather non-public personal information related to you and explain
+              the measures we take to keep the information secure. We also
+              indicate which information about you we will be sharing with our
+              affiliates and with non-affiliated third parties.
             </p>
 
             <h2 className="text-2xl font-bold pb-2">Note:</h2>
 
             <p className=" flex gap-2 items-center mb-2">
-              <FaHandPointRight /> Our privacy policy is subject to change at
-              any time without notice. To make sure you are aware of any
-              changes, please review this policy periodically.
+              <FaHandPointRight /> This Privacy Policy explains our information
+              collection and sharing practices. It identifies the sources from
+              which we collect non-public personal information about you,
+              details the measures we take to secure that information, and
+              describes the information about you that we may share with our
+              affiliates and with non-affiliated third parties. What is given
+              below will give you a fair idea about how we treat your personal
+              data.
             </p>
             <p className=" flex gap-2 items-center mb-2">
               <FaHandPointRight /> By visiting this Website you agree to be
@@ -173,20 +179,15 @@ function Privacy() {
               information we collect, how we use it, and under what
               circumstances we disclose it
             </p>
-            <h2 className=" py-4 text-2xl font-bold">8. Contact details:</h2>
+            <h2 className=" py-4 text-2xl font-bold">8. REFUND POLICY :</h2>
 
             <p className=" flex gap-2 items-center mb-2">
-              If you have any questions about this privacy statement, the
-              practices of this site or your dealings with this website, you can
-              contact us.
+           The admin fee collected in advance will not be refunded by the company in any scenario which includes the applicants dening for disbursal acceptance once the approval process is complete.
             </p>
-        <p>Company Name: unify wellness</p>
-        <p>Email ID: director@unifywellness.com</p>
-        <p>Mobile Number:+91 88519 24626 </p>
-        <p>
-          Address: 55,2nd floor, Lane 2 , westend marg ,saidullajab, near saket
-          metro station,new delhi ,110030
-        </p>
+            
+            <p>
+            The refund policy is subject to change by Alkhair Loan (Mahashakti Financiers Limited). The changes will apply after due legal diligence. Suitable announcements will be made on the website and legally-compliant notice period will be given before any changes come into force.
+            </p>
           </div>
         </div>
       </section>
