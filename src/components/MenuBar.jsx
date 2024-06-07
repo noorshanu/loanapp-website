@@ -19,7 +19,7 @@ function MenuBar() {
           <div>
             <Link to='/'>
             
-            <img src="images/logo.png" alt="" className='sm:h-[95px] h-[85px] p-3' />
+            <img src="images/logo.png" alt="" className='sm:h-[125px] h-[85px] p-3' />
             </Link>
           </div>
           <div className='flex items-center gap-6'>
@@ -78,8 +78,7 @@ function MenuBar() {
                   </Link>
                 
                 </p>
-                <a href="https://unifywellness.in/Web/aspx/member-login.aspx" target='_blank' className=' btn-main py-1 px-8 font-semibold'> Log In</a>
-                <a href="https://unifywellness.in/Web/aspx/SignUp.aspx" target='_blank' className=' btn-main py-1 px-8 font-semibold'> Sign Up</a>
+                
             </div>
             <div className='md:hidden'>
               {/* Mobile Navigation with Hamburger Icon */}
