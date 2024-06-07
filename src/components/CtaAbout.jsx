@@ -9,14 +9,10 @@ function CtaAbout() {
             Integrated Efforts Towards Excellence
           </h2> */}
           <p class="mb-6 font-light text-gray-500 dark:text-gray-400 md:text-lg">
-            We invite you to join us on this journey of wellness. Whether you
-            are seeking to improve your health, find natural solutions, or
-            simply explore the potential of biomagnetic products, Unify Wellness
-            is here for you. Connect with us to learn more about our products,
-            our philosophy, and how we can help you achieve your wellness goals.
+          Alkhair Loan’s online personal loans offer a fast, convenient, and affordable financing solution that helps borrowers achieve their goals and overcome financial challenges. By providing flexible and accessible funding, Alkhair Loan empowers borrowers to manage unexpected expenses, seize opportunities, and enjoy stress-free moments that might otherwise be difficult to attain. With a focus on delivering value and meeting diverse needs, Alkhair Loan’s personal loans are designed to make life easier and more enjoyable, providing the financial tools needed to live one's best life.
           </p>
           <a
-            href="mailto:director@unifywellness.co.in"
+            href="/contact-us"
             class="text-black btn-main px-8 py-2 font-bold focus:ring-4 focus:ring-primary-300 rounded-lg text-sm  mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800"
           >
             Connect with Us{" "}

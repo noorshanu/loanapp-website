@@ -18,7 +18,7 @@ function ContactUs() {
           <h1 className="text-[24px] sm:text-[50px] font-bold text-black text-center mt-2  ">
             Contact us
           </h1>
-          <div className=" bg-[#00aef3] h-[4px] w-[200px] mx-auto mb-8"></div>
+          <div className=" bg-[#a72929] h-[4px] w-[200px] mx-auto mb-8"></div>
         </div>
 
         <div className=" flex justify-evenly flex-col sm:flex-row  ">
@@ -27,11 +27,11 @@ function ContactUs() {
               <h1 className=" text-4xl font-bold pb-4 " >Company Address</h1>
             </div>
             <h2 className=" text-lg py-2">
-              <strong>Address : </strong>   55,2nd floor, Lane 2 , westend marg ,saidullajab, <br />near saket metro station,new delhi ,110030
+              <strong>Address : </strong>  coming soon <br />soon
             </h2>
          
-            <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 88519 24626</p>
-            <p className=" text-lg py-2"><strong>Email :</strong> director@unifywellness.co.in</p>
+            <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 12345565656</p>
+            <p className=" text-lg py-2"><strong>Email :</strong> soon</p>
 
             <div className=" flex items-center gap-4 py-4">
             <a href="/" className="  text-black text-3xl hover:text-[#000000]">
