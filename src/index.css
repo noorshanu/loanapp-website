@@ -117,7 +117,10 @@ body{
 } */
 .btn-main{
   border-radius: 4px;
-background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.51%, #0076FD 96.58%));
+background: var(--secondary, linear-gradient(136deg, #f30018 2.61%, #008EF9 51.51%, #0076FD 96.58%));
+border: 1px solid #000 ;
+border-radius: 20px;
+color: #fff;
 }
 
 .menu p{
@@ -185,4 +188,29 @@ justify-content: center;
   width: 15px !important;
   height: 15px !important;
   background-color: #fff !important;
+}
+
+@media (max-width:768px) {
+
+  .hero-bg{
+    background-image: url('../public/images/slider.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+  }
+  
+  .br-d{
+    border-radius: 1px 1px 6px 6px;
+  }
+  
+  .hero-bg2{
+    background-image: url('../public/images/slider2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px;
+  }
+  
+  
 }

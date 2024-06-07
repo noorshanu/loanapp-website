@@ -3,7 +3,7 @@ import React from 'react'
 function FormEnquery() {
   return (
     <>
-    <form className=''> 
+    <form className='#enquery'> 
      <div className=' flex items-center justify-between w-full gap-3 '>
      <div className="mb-4 w-full">
           <label className="block text-white">Name</label>

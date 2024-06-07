@@ -28,9 +28,9 @@ function Hero() {
           <div className="hero-bg">
             <div className="container-wrapper">
               <div className="  max-w-2xl h-full">
-                <div className=" flex  items-center gap-4">
-                  <a href="/" className="btn-main px-8 py-2 font-bold">
-                    Shop Our Products
+                <div className=" flex justify-center items-center gap-4">
+                  <a href="/" className="bg-gradient-to-r from-[#ca0018] via-[#d7142b] to-[#7d0210] rounded-xl text-white px-8 py-2 font-bold">
+                    Conatct us
                   </a>
                 </div>
               </div>
@@ -43,8 +43,8 @@ function Hero() {
             <div className="container-wrapper">
               <div className="  max-w-2xl h-full mx-auto">
                 <div className=" flex justify-center gap-6 items-center">
-                  <a href="/" className="btn-main px-8 py-2 font-bold">
-                    Learn About Biomagnetic Therapy
+                  <a href="/" className="bg-gradient-to-r from-[#ca0018] via-[#d7142b] to-[#7d0210] rounded-xl text-white px-8 py-2 font-bold">
+                    About Us
                   </a>
                 </div>
               </div>

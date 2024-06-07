@@ -2,9 +2,9 @@
 
 
 import Biomag from '../components/Biomag'
-import About from '../components/About'
+
 import Vision from '../components/Vision'
-import Products from '../components/Products'
+
 import Hero from '../components/Hero'
 import Contact from '../components/Contact'
 import Footer from '../components/Footer'
@@ -46,9 +46,9 @@ function Home() {
     <Hero/>
     <Enquiry/>
     <Biomag/>
-    <About/>
+    {/* <About/> */}
     <Vision/>
-    <Products/>
+    {/* <Products/> */}
 <Cta/>
     {/* <Contact/> */}
     <Footer/>

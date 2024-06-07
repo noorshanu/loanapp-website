@@ -8,14 +8,15 @@ function Footer() {
       <div className="container-wrapper mx-auto">
         <div className=" flex flex-col sm:flex-row justify-between gap-28">
           <div>
-            <img src="images/logo.png" alt="" className=" mb-3" />
+            <img src="images/logo.png" alt="" className=" mb-3 h-[200px]" />
 
             <p className=" max-w-full pr-4 sm:pr-0 sm:max-w-sm mb-2 text-xs font-normal">
-              We merge the latest in wellness technology with everyday
-              usability. Our mission is to provide products that seamlessly
-              integrate optimum health benefits into your daily life. Discover a
-              holistic approach to well-being with Unify Wellness – your trusted
-              partner on the path to a healthier, happier life.
+              Alkhair Loan’s online personal loans are a fast, convenient, and
+              affordable source of financing that help borrowers achieve their
+              goals and overcome financial obstacles. By providing flexible and
+              accessible access to funds, Alkhair Loan empowers its borrowers to
+              manage unexpected expenses, seize opportunities, and enjoy
+              stress-free moments that might otherwise be difficult to attain.
             </p>
             <div className=" flex items-center gap-2 pt-2">
               <a href="/" className="  text-lg text-[#000000]">
@@ -38,25 +39,23 @@ function Footer() {
 
             <div className=" flex flex-col gap-3 items-start justify-start">
               <a href="/" className=" text-lg font-normal ">
-                Biomagnetic Mattress
+              Instant Personal Loans
               </a>
               <a href="/" className=" text-lg font-normal ">
-                Foot Massager
+              Instant Short Term Loans
               </a>
               <a href="/" className=" text-lg font-normal ">
-                Bracelet
+              Instant Home Loan
               </a>
 
               <a href="/" className=" text-lg font-normal ">
-                Water pad
+              Instant Education Loan
               </a>
               <a href="/" className=" text-lg font-normal ">
-                Knee Cap
+              Loan Against Property
               </a>
 
-              <a href="/" className=" text-lg font-normal ">
-                Neck Massager
-              </a>
+           
             </div>
           </div>
 
@@ -73,41 +72,33 @@ function Footer() {
                 About us
               </a>
               <a href="/" className=" text-lg font-normal ">
-                Gallery
+               Contact us 
               </a>
               <a href="/" className=" text-lg font-normal ">
-                Team
+              Term & Condition 
               </a>
               <a href="/" className=" text-lg font-normal ">
-                Rank Achievers
+                Privacy Policy
               </a>
             </div>
           </div>
 
           <div>
             <h2 className=" text-xl text-black font-bold mb-4">
-              More information
+              Conatct Us
             </h2>
 
             <div className=" flex flex-col gap-3 items-start justify-start">
               <a href="/contact-us" className=" text-lg font-normal ">
-                Contact us
+              Phone: +9123456788990
               </a>
               <a href="/grievance-cell" className=" text-lg font-normal ">
-                Grievance Cell
+                Email. info@ghghddj.com
               </a>
-              <a href="/grievance-redressal" className=" text-lg font-normal ">
-                Grievance Redressal
-              </a>
-              <a href="/privacy-policy" className=" text-lg font-normal ">
-                Privacy Policy
-              </a>
-              <a href="/legal" className=" text-lg font-normal ">
-                Legal
-              </a>
-              <a href="/terms-conditions" className=" text-lg font-normal ">
-                Terms & Conditions
-              </a>
+          
+            
+             
+             
             </div>
           </div>
         </div>

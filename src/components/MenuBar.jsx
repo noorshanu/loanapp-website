@@ -45,8 +45,8 @@ function MenuBar() {
               <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
                 <LinkScroller
                   id="prod"
-                  to="#prod"
-                  onClick={() => console.log("works")}
+                  to="#service"
+                  
                   scrollerOptions={{ smooth: true }}
                 >
                  Our Services
@@ -54,7 +54,7 @@ function MenuBar() {
               </p>
 
               <p className=" text-black cursor-pointer hover:text-black  text-sm uppercase">
-                <Link to="/legal">enquire now</Link>
+                <a href="#enquery">enquire now</a>
               </p>
 
               {/* <p  className=' text-black cursor-pointer hover:text-black  text-sm uppercase'>
