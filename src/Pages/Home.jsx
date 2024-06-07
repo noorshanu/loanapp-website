@@ -1,4 +1,4 @@
-import {  useState,useEffect } from "react";
+
 
 
 import Biomag from '../components/Biomag'
@@ -11,30 +11,31 @@ import Footer from '../components/Footer'
 import Disclaimer from '../components/Disclaimer'
 import MenuBar from '../components/MenuBar'
 import SearchMenu from '../components/SearchMenu'
-import WelcomePopup from '../components/WelcomePopup'
+// import WelcomePopup from '../components/WelcomePopup'
 import Cta from "../components/Cta";
+import Enquiry from '../components/Enquiry'
 
 function Home() {
 
-  const [isPopupOpen, setIsPopupOpen] = useState(false);
+  // const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  const openPopup = () => {
-    setIsPopupOpen(true);
-  };
+  // const openPopup = () => {
+  //   setIsPopupOpen(true);
+  // };
   
-  const closePopup = () => {
-    setIsPopupOpen(false);
-  };
+  // const closePopup = () => {
+  //   setIsPopupOpen(false);
+  // };
   
-  useEffect(() => {
-    // Auto trigger the popup after 3000 milliseconds (3 seconds)
-    const popupTimer = setTimeout(() => {
-      openPopup();
-    }, 2000);
+  // useEffect(() => {
+  //   // Auto trigger the popup after 3000 milliseconds (3 seconds)
+  //   const popupTimer = setTimeout(() => {
+  //     openPopup();
+  //   }, 2000);
   
-    // Clear the timer when the component unmounts
-    return () => clearTimeout(popupTimer);
-  }, []);
+  //   // Clear the timer when the component unmounts
+  //   return () => clearTimeout(popupTimer);
+  // }, []);
   return (
    <>
    <div>
@@ -43,6 +44,7 @@ function Home() {
     <SearchMenu/>
     <MenuBar/>
     <Hero/>
+    <Enquiry/>
     <Biomag/>
     <About/>
     <Vision/>
@@ -52,7 +54,7 @@ function Home() {
     <Footer/>
     <Disclaimer/>
    </div>
-   <WelcomePopup isOpen={isPopupOpen} onClose={closePopup}/>
+   {/* <WelcomePopup isOpen={isPopupOpen} onClose={closePopup}/> */}
    </>
   )
 }

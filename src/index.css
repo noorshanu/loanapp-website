@@ -85,7 +85,7 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 700px;
+  height: 400px;
 }
 
 .br-d{
@@ -97,11 +97,11 @@ body{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 700px;
+  height: 400px;
 }
 
 
-.hero-bg3{
+/* .hero-bg3{
   background-image: url('../public/images/slider3.png');
   background-size: cover;
   background-repeat: no-repeat;
@@ -114,7 +114,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   height: 700px;
-}
+} */
 .btn-main{
   border-radius: 4px;
 background: var(--secondary, linear-gradient(136deg, #00AEF3 2.61%, #008EF9 51.51%, #0076FD 96.58%));
