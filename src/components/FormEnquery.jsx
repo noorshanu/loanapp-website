@@ -222,7 +222,11 @@ function FormEnquery() {
             required
           >
             <option>1-2 Year</option>
-            {/* Add other durations here */}
+            <option>3-5 Year</option>
+            <option>5-10 Year</option>
+            <option>10-15 Year</option>
+      
+            
           </select>
         </div>
         <button className="px-6 py-2 bg-red-500 text-white rounded hover:bg-red-600" type="submit">Submit</button>
