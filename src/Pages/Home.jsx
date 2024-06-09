@@ -1,5 +1,5 @@
 
-
+import { MdAddIcCall } from "react-icons/md";
 
 import Biomag from '../components/Biomag'
 
@@ -38,7 +38,7 @@ function Home() {
   // }, []);
   return (
    <>
-   <div>
+   <div className=' relative'>
     {/* <TopBar/> */}
     {/* <Navbar/> */}
     <SearchMenu/>
@@ -53,6 +53,16 @@ function Home() {
     {/* <Contact/> */}
     <Footer/>
     <Disclaimer/>
+
+    <div className="  fixed bottom-4 left-[6%] p-4  z-20  bg-[#008a00] rounded-full">
+      <a href="tel:06299877887" className="bg-[#008a00]  text-xl text-white flex items-center justify-center gap-2   ">
+
+        
+        <MdAddIcCall /> call us
+   
+
+      </a>
+    </div>
    </div>
    {/* <WelcomePopup isOpen={isPopupOpen} onClose={closePopup}/> */}
    </>
