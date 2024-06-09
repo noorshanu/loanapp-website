@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function FormEnquery() {
   const [formData, setFormData] = useState({
@@ -46,7 +48,7 @@ function FormEnquery() {
       console.log(result);
 
       if (response.ok) {
-        alert('Thanks for filling up the form!');
+        toast.success('Thanks for filling up the form!');
         // Reset form after submission
         setFormData({
           firstName: '',
@@ -59,11 +61,11 @@ function FormEnquery() {
           loanTimeDuration: '1-2 Year'
         });
       } else {
-        alert('Failed to submit the form.');
+        toast.error('Failed to submit the form.');
       }
     } catch (error) {
       console.error('Error:', error);
-      alert('An error occurred while submitting the form.');
+      toast.error('An error occurred while submitting the form.');
     }
   };
 
@@ -225,6 +227,7 @@ function FormEnquery() {
         </div>
         <button className="px-6 py-2 bg-red-500 text-white rounded hover:bg-red-600" type="submit">Submit</button>
       </form>
+      <ToastContainer />
     </>
   );
 }
