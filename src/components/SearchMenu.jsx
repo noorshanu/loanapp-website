@@ -9,10 +9,10 @@ function SearchMenu() {
         <div className=" flex flex-col sm:flex-row items-center gap-6">
           <div className="  flex items-center gap-3 ">
             <a
-              href="/privacy-policy" target='_blank'
+              href="tel:06299877887" 
               className=" text-xs sm:text-lg font-sfpro font-blod uppercase  text-[#ffffff]"
             >
-            Call US On - +91234567890
+            Call US On - +916299877887
             </a>
          
        
