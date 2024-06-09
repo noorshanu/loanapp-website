@@ -68,10 +68,10 @@ function Footer() {
               <a href="/" className=" text-lg font-normal ">
                 Home
               </a>
-              <a href="/" className=" text-lg font-normal ">
+              <a href="/about" className=" text-lg font-normal ">
                 About us
               </a>
-              <a href="/" className=" text-lg font-normal ">
+              <a href="/contact-us" className=" text-lg font-normal ">
                Contact us 
               </a>
               <a href="/privacy-policy" className=" text-lg font-normal ">
@@ -90,10 +90,10 @@ function Footer() {
 
             <div className=" flex flex-col gap-3 items-start justify-start">
               <a href="/contact-us" className=" text-lg font-normal ">
-              Phone: +91 6299877887
+              Phone: <strong>+91 6299877887</strong>
               </a>
-              <a href="/grievance-cell" className=" text-lg font-normal ">
-                Email. alkhairloans786@gmail.com
+              <a href="/contact-us" className=" text-lg font-normal ">
+                Email:<strong>alkhairloans786@gmail.com</strong>
               </a>
           
             
