@@ -30,7 +30,7 @@ function ContactUs() {
               <strong>Address : </strong>  coming soon <br />soon
             </h2>
          
-            <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 12345565656</p>
+            <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 6299877887</p>
             <p className=" text-lg py-2"><strong>Email :</strong> soon</p>
 
             <div className=" flex items-center gap-4 py-4">
