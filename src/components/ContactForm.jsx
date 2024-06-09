@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -9,18 +11,52 @@ const ContactForm = () => {
   });
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData((prevData) => ({
-      ...prevData,
-      [name]: value,
-    }));
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value
+    });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your form submission logic here
-    console.log("Form submitted:", formData);
+
+    const payload = {
+      first_name: formData.firstName,
+      last_name: formData.lastName,
+      email: formData.email,
+     message:formData.message
+    };
+
+    try {
+      const response = await fetch('https://nitinekkaloanapp.pythonanywhere.com/v1/add_contacts/', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(payload)
+      });
+
+      const result = await response.json();
+      console.log(result);
+
+      if (response.ok) {
+        toast.success('Thanks for filling up the form!');
+        // Reset form after submission
+        setFormData({
+          firstName: '',
+          lastName: '',
+          email: '',
+          message:'',
+        });
+      } else {
+        toast.error('Failed to submit the form.');
+      }
+    } catch (error) {
+      console.error('Error:', error);
+      toast.error('An error occurred while submitting the form.');
+    }
   };
+
 
   return (
     <form className=" mx-auto mt-8 sm:p-4 px-7 border rounded-md " onSubmit={handleSubmit}>
@@ -99,6 +135,7 @@ const ContactForm = () => {
       >
         Submit
       </button>
+      <ToastContainer />
     </form>
   );
 };
