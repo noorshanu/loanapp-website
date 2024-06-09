@@ -27,11 +27,11 @@ function ContactUs() {
               <h1 className=" text-4xl font-bold pb-4 " >Company Address</h1>
             </div>
             <h2 className=" text-lg py-2">
-              <strong>Address : </strong>  coming soon <br />soon
+              {/* <strong>Address : </strong>  coming soon <br />soon */}
             </h2>
          
             <p className=" text-lg py-2"> <strong>Phone : </strong>  +91 6299877887</p>
-            <p className=" text-lg py-2"><strong>Email :</strong> soon</p>
+            <p className=" text-lg py-2"><strong>Email :</strong> alkhairloans786@gmail.com</p>
 
             <div className=" flex items-center gap-4 py-4">
             <a href="/" className="  text-black text-3xl hover:text-[#000000]">

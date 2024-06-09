@@ -90,10 +90,10 @@ function Footer() {
 
             <div className=" flex flex-col gap-3 items-start justify-start">
               <a href="/contact-us" className=" text-lg font-normal ">
-              Phone: +9123456788990
+              Phone: +91 6299877887
               </a>
               <a href="/grievance-cell" className=" text-lg font-normal ">
-                Email. info@ghghddj.com
+                Email. alkhairloans786@gmail.com
               </a>
           
             
