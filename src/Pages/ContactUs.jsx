@@ -6,11 +6,13 @@ import ContactForm from "../components/ContactForm";
 import Disclaimer from "../components/Disclaimer";
 import { FaXTwitter,FaInstagram ,FaYoutube} from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import PreventInspect from "../PreventInspect";
 
 
 function ContactUs() {
   return (
     <section>
+      <PreventInspect/>
       <SearchMenu />
       <MenuBar />
       <div className="container-wrapper py-8 mx-auto">

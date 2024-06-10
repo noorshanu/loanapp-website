@@ -3,10 +3,12 @@ import SearchMenu from "../components/SearchMenu";
 import Footer from "../components/Footer";
 import Disclaimer from "../components/Disclaimer";
 import CtaAbout from "../components/CtaAbout";
+import PreventInspect from "../PreventInspect";
 
 function About() {
   return (
     <>
+    <PreventInspect/>
       <SearchMenu />
       <MenuBar />
       <div className="container-wrapper">

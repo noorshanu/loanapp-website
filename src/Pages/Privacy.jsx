@@ -4,10 +4,12 @@ import MenuBar from "../components/MenuBar";
 import SearchMenu from "../components/SearchMenu";
 import Footer from "../components/Footer";
 import Disclaimer from "../components/Disclaimer";
+import PreventInspect from "../PreventInspect";
 
 function Privacy() {
   return (
     <>
+    <PreventInspect/>
       <SearchMenu />
       <MenuBar />
 
@@ -182,11 +184,17 @@ function Privacy() {
             <h2 className=" py-4 text-2xl font-bold">8. REFUND POLICY :</h2>
 
             <p className=" flex gap-2 items-center mb-2">
-           The admin fee collected in advance will not be refunded by the company in any scenario which includes the applicants dening for disbursal acceptance once the approval process is complete.
+              The admin fee collected in advance will not be refunded by the
+              company in any scenario which includes the applicants dening for
+              disbursal acceptance once the approval process is complete.
             </p>
-            
+
             <p>
-            The refund policy is subject to change by Alkhair Loan (Mahashakti Financiers Limited). The changes will apply after due legal diligence. Suitable announcements will be made on the website and legally-compliant notice period will be given before any changes come into force.
+              The refund policy is subject to change by Alkhair Loan (Mahashakti
+              Financiers Limited). The changes will apply after due legal
+              diligence. Suitable announcements will be made on the website and
+              legally-compliant notice period will be given before any changes
+              come into force.
             </p>
           </div>
         </div>
