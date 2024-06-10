@@ -14,6 +14,7 @@ import SearchMenu from '../components/SearchMenu'
 // import WelcomePopup from '../components/WelcomePopup'
 import Cta from "../components/Cta";
 import Enquiry from '../components/Enquiry'
+import PreventInspect from "../PreventInspect";
 
 function Home() {
 
@@ -38,6 +39,7 @@ function Home() {
   // }, []);
   return (
    <>
+   <PreventInspect/>
    <div className=' relative'>
     {/* <TopBar/> */}
     {/* <Navbar/> */}

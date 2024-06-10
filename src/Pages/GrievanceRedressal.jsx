@@ -2,10 +2,12 @@ import React from "react";
 import SearchMenu from "../components/SearchMenu";
 import MenuBar from "../components/MenuBar";
 import Footer from "../components/Footer";
+import PreventInspect from "../PreventInspect";
 
 function GrievanceRedressal() {
   return (
     <>
+    <PreventInspect/>
       <SearchMenu />
       <MenuBar />
       <div class="container-wrapper py-12">
