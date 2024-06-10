@@ -36,7 +36,7 @@ function FormEnquery() {
     };
 
     try {
-      const response = await fetch('https://nitinekkaloanapp.pythonanywhere.com/v1/add_leads/', {
+      const response = await fetch('https://api.alkhairloans.in/v1/add_leads/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
