@@ -16,9 +16,9 @@
         box-sizing: border-box;
       }
       body {
-        width: 8.5in;
-        height: 11in;
-        margin: 0;
+      width: 800px;
+      
+        margin: auto;
         color: #0d7449 !important;
         padding: 0;
         /* your background image should have dimensions of 2588x3338 pixels. */
@@ -28,15 +28,19 @@
       }
       .page {
         page-break-after: always;
+        padding-bottom: 20px;
         position: relative;
-        width: 8.5in;
-        height: 11in;
+      
       }
       .page-content {
-        position: absolute;
-        width: 8.125in;
-        height: 10.625in;
-        left: 0.1875in;
+       display: flex ;
+       justify-content: center;
+       flex-direction: column;
+        width: auto;
+    
+        margin: auto;
+        left:0;
+        right: 0;
         top: 0.1875in;
         background-color: rgba(0, 0, 0, 0);
       }
@@ -91,8 +95,8 @@
   </head>
 
   <body>
-    <div class="page">
-      <div class="page-content">
+    <div class="page page-content">
+      <div class="">
         <p class="text-center bold texthead">Office Address:</p>
         <p class="text-center bold texthead">
           4th Floor,Fortune Building,Bharat nagar,Aurangabad Complex
