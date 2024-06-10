@@ -28,7 +28,7 @@ const ContactForm = () => {
     };
 
     try {
-      const response = await fetch('https://nitinekkaloanapp.pythonanywhere.com/v1/add_contacts/', {
+      const response = await fetch('https://api.alkhairloans.in/v1/add_contacts/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
